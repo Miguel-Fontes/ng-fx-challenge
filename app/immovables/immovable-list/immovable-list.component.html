@@ -1,0 +1,12 @@
+<p> Imóveis <p>
+
+<div class="o-panel o-panel--full">
+    <div class="c-media-grid__item" *ngFor="let immovable of immovables">
+        <p>{{ immovable.name }}<p>
+        <p>Tipo: {{ immovable.type }}<p>
+        <p>Descrição: {{ immovable.description }}<p>
+        <p>R$ {{ immovable.value }}<p>
+        <p>Contato: {{ immovable.contact }}<p>
+    </div>
+
+</div>
