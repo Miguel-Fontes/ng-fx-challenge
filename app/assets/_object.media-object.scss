@@ -1,0 +1,31 @@
+.o-media-object--grid {
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    width: 510px;
+}
+
+.o-media-object {
+    display: block;
+    padding: 1em;
+    margin: 1em;
+}
+
+.o-media-object__media {
+    display: inline-block;
+    padding: 0em 1em 0em 0em;
+    vertical-align: top;
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.o-media-object__content {
+    display: inline-block;
+}
+
+.o-media-object__field {
+    margin: 0em 1em 0em 0em
+}
