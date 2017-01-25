@@ -10,8 +10,8 @@
     "test-once": "tsc && karma start karma.conf.js --single-run",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "pre-sass": "node-sass ./app/assets/ --output ./app/assets",
-    "pre-sass:w": "node-sass --watch ./app/assets/ --output ./app/assets"
+    "pre-sass": "node-sass ./app/assets/css/ --output ./app/assets/css",
+    "pre-sass:w": "node-sass --watch ./app/assets/css --output ./app/assets/css"
   },
   "keywords": [],
   "author": "Miguel Fontes",
