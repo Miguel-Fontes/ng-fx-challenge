@@ -1,12 +1,17 @@
-<p> Imóveis <p>
-
 <div class="o-panel o-panel--full">
-    <div class="c-media-grid__item" *ngFor="let immovable of immovables">
-        <p>{{ immovable.name }}<p>
-        <p>Tipo: {{ immovable.type }}<p>
-        <p>Descrição: {{ immovable.description }}<p>
-        <p>R$ {{ immovable.value }}<p>
-        <p>Contato: {{ immovable.contact }}<p>
-    </div>
+    <div class="o-media-object--grid o-card" *ngFor="let immovable of immovables">
+        <div class="o-media-object__media">
+            <img src="{{ immovable.images[0].url }}">
+        </div>
 
+        <div class="o-media-object__content">
+            <ul class="g-list-unstyled">
+                <li>{{ immovable.name }}<p>
+                <li>Tipo: {{ immovable.type }}<li>
+                <li>Endereço: {{ immovable.place[0].address }}<li>
+                <li>Valor: R$ {{ immovable.value }}<li>
+                <li>Contato: {{ immovable.contact }}<li>
+            </ul>
+        </div>
+    </div>
 </div>
