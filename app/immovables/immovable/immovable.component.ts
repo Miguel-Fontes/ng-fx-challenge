@@ -4,8 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 @Component({
     moduleId: module.id,
     selector: 'immovable',
-    templateUrl: './immovable.component.html',
-    styleUrls: ["./../assets/styles.css"]
+    templateUrl: './immovable.component.html'
 })
 
 export class ImmovableComponent implements OnInit {

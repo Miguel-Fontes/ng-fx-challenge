@@ -9,8 +9,7 @@ import { Place, Image, Immovable } from './shared/immovable.interface'
 @Component({
     moduleId: module.id,
     selector: 'immovables',
-    templateUrl: './immovables.component.html',
-    styleUrls: ["./../assets/styles.css"]
+    templateUrl: './immovables.component.html'
 })
 
 export class ImmovablesComponent implements OnInit {
