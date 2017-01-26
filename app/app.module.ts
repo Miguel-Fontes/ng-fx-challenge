@@ -3,18 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpModule } from '@angular/http';
 
-
 import { AppComponent }  from './app.component';
 
-import { AppRoutingModule, routedComponents } from './app.routing';
+import { AppRoutingModule, routedComponents } from './app.routing.module';
 
+import { ImmovablesRoutingModule } from './immovables/immovables.routing.module';
+import { ImmovablesModule } from './immovables/immovables.module';
 import { ImmovableService } from './immovables/shared/immovable.service'
 
-import { ImmovableListComponent } from './immovables/immovable-list/immovable-list.component';
-
 @NgModule({
-  imports:      [ BrowserModule, AppRoutingModule, HttpModule ],
-  declarations: [ AppComponent, routedComponents, ImmovableListComponent ],
+  imports:      [ HttpModule,
+                  BrowserModule,
+                  ImmovablesModule,
+                  AppRoutingModule ],
+  declarations: [ AppComponent,
+                  routedComponents ],
   providers:    [ ImmovableService ],
   bootstrap:    [ AppComponent ]
 })
