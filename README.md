@@ -9,5 +9,3 @@ Implementação da aplicação proposta pela equipe F(x)
 
 # Screenshots
 ![Screnshot1](./app/assets/screenshots/fdex1.png)
-
-![Screnshot2](./app/assets/screenshots/fdex2.png)
