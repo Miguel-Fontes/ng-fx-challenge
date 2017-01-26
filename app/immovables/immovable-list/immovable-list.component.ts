@@ -6,8 +6,7 @@ import { Immovable } from './../shared/immovable.interface'
 @Component({
     moduleId: module.id,
     selector: 'immovable-list',
-    templateUrl: './immovable-list.component.html',
-    styleUrls: ["./../../assets/styles.css"]
+    templateUrl: './immovable-list.component.html'
 })
 
 export class ImmovableListComponent implements OnInit {
