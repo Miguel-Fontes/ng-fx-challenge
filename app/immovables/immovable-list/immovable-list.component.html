@@ -1,16 +1,17 @@
-<div class="o-panel o-panel--full">
-    <div class="o-media-object--grid o-card" *ngFor="let immovable of immovables">
+<!-- Adicionar um SideBar com 'Filtros e Opção de Cadastro' -->
+<div class="o-flex-grid c-item-grid">
+    <div class="o-media-object c-card" *ngFor="let immovable of immovables">
         <div class="o-media-object__media">
             <img src="{{ immovable.images[0].url }}">
         </div>
 
         <div class="o-media-object__content">
-            <ul class="g-list-unstyled">
-                <li>{{ immovable.name }}<p>
-                <li>Tipo: {{ immovable.type }}<li>
-                <li>Endereço: {{ immovable.place[0].address }}<li>
-                <li>Valor: R$ {{ immovable.value }}<li>
-                <li>Contato: {{ immovable.contact }}<li>
+            <ul class="g-list-unstyled c-fields-list">
+                <li>{{ immovable.name }}</li>
+                <li>Tipo: {{ immovable.type }}</li>
+                <li>Endereço: {{ immovable.place[0].address }}</li>
+                <li>Valor: R$ {{ immovable.value }}</li>
+                <li>Contato: {{ immovable.contact }}</li>
             </ul>
         </div>
     </div>
