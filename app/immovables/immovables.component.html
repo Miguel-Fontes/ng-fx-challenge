@@ -1,6 +1,8 @@
-<!-- Adicionar um SideBar com 'Filtros e Opção de Cadastro' -->
-<aside class="sidebar">
-    <button (click)="onAdd()"> Adicionar </button>
-</aside>
-<immovable-list [immovables]="immovables"></immovable-list>
+<menu class="c-submenu-bar">
+    <menuitem class="c-submenu-bar__item" (click)="onAdd()">
+            Cadastrar Imóvel
+            <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+    </menuitem>
+</menu>
 
+<immovable-list [immovables]="immovables"></immovable-list>
