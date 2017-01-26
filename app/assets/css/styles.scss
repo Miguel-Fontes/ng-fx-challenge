@@ -10,23 +10,33 @@ Components – specific UI components. This is where majority of our work takes 
 Trumps – utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class
 */
 
+// Settings
+@import "./settings.global";
+@import "./settings.colors";
+
 // Base
 @import "./elements";
-// Components
-@import "./component.cards";
 
 // Generic
 @import "./generic.lists";
 
 // Objects
 @import "./object.panel";
+@import "./object.structure";
 @import "./object.media-object";
+@import "./object.flex-grid";
+
+// Components
+@import "./component.cards";
+@import "./component.item-grid";
+@import "./component.submenu-bar";
+@import "./component.primary-menu";
+@import "./component.footer-contact-list";
+@import "./component.fields-list";
 
 // Trumps
 // @import "./"
 
-// Settings
-@import "./settings.global";
-@import "./settings.colors";
+
 
 

@@ -1,0 +1,30 @@
+// Basic page Structure -> Header, Body, Footer
+.page-header {
+    margin: 0;
+    padding: 1em;
+    background-color: $base-brand-color;
+    display: block;
+    min-width: 100%;
+
+    h1 {
+        margin: 0;
+        color: $header-text-color;
+    }
+}
+
+.page-content {
+    display: block;
+    margin-bottom: 160px;
+}
+
+.page-footer {
+    display: block;
+    min-width: 100%;
+    position: fixed;
+    color: $header-text-color;
+    bottom: 0px;
+    font-style: bold;
+    font-size: 1em;
+    padding: 1em;
+    background-color: $base-brand-color;
+}

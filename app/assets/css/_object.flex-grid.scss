@@ -1,0 +1,17 @@
+.o-flex-grid {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+@media all and (max-width: 800px) {
+.o-flex-grid {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 500px) {
+.o-flex-grid {
+    flex-direction: column;
+  }
+}

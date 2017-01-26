@@ -1,0 +1,15 @@
+.c-submenu-bar {
+    background: $base-secondary-brand-color;
+    min-width: 100%;
+}
+
+.c-submenu-bar__item {
+    display: inline-block;
+    padding: 1em 1em 1em 1em;
+    background-color: $menu-primary-color;
+}
+
+.c-submenu-bar__item:hover {
+    background-color: $menu-hover-color;
+    cursor: pointer;
+}
